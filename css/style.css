@@ -1,0 +1,175 @@
+body {
+    background:#f7dfcb;
+}
+
+h1 {
+    font-family: 'Monoton';
+
+    
+}
+
+h2 {
+    font-family: 'Lato';   
+}
+
+
+/*==================  GLOBAL ==================*/
+
+a {
+   font-family: 'lato'; 
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+/*==================  HOME ==================*/
+
+.name {
+
+}
+
+.name h1 {
+    margin:55% 0 0 0 ;
+    font-size: 2em;
+    color:#e31f72;
+
+}
+
+.name h2 {
+    font-weight: 700; 
+    font-size: 1em;
+    color:#555252;
+
+}
+
+.home-cta {
+    margin: 25% 0 0 0;
+    background:#092bb5;
+    padding: 3% 4% 3% 4%;
+}
+
+.home-cta a {
+    color:#fff;
+    
+}
+
+.skills-preview {
+    margin: 30% 0 0 0;
+    padding: 0 0 8% 0;
+    background:rgba(255, 255, 255, 0.56);
+}
+
+.section-title {    
+}
+
+.section-title h2 {
+    margin: 5% 0 8% 10%;
+    text-align: left;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    padding: 8% 0 0 0;
+    color:#e31f72;
+
+}
+
+.skill {
+    width:100%;   
+    padding: 0 0 5% 0;
+}
+
+.skill h1 /* just using this to do text-align for the icon i*/ {
+
+    text-align: center;
+    
+}
+
+.skill i {
+    font-size: 3em;
+    color:#092bb5;
+;
+    text-shadow: -1px 0 #666, 0 1px #666, 1px 0 #666, 0 -1px #666;
+}
+
+.skill h2 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size:1.2em;
+    text-align: center;
+    text-transform: uppercase;
+    color:#333;
+}
+
+.skill p {
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 1em;
+    text-align: center;
+    margin: 0 5% 0 5%;
+    padding: 0 0 0 0;
+    color:#333;
+
+}
+
+.home-bottom {
+    width:100%;
+    background: none;   
+    margin: 0;
+    padding: 0 0 20% 0;
+}
+
+.bottom-img {
+    width:100%;
+    margin: 5% 0 0 0;
+}
+
+.bottom-img img {
+    width:100%;
+}
+
+
+.home-bottom h2 {
+    margin:0 5% 0 5%;
+    padding:8% 0 5% 0 ;
+    font-family: 'Open Sans';
+    font-weight: 400; /* normal */
+    color:#fff;
+    letter-spacing: 1.5px;
+    line-height: 1.8em;
+    font-size: 1.3em;
+}
+
+.cta-bottom {
+    width:70%;
+    margin: 10% 15% 0 15%;
+}
+
+.cta-bottom a {
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 7% 8% 7% 8%;
+    background: #fff;
+    font-size: 1em;
+    font-family: 'Lato';
+    font-weight: 700;
+    color:#3f8fe6;
+    text-transform:uppercase;
+    /*border: 2px #333 solid; */
+    box-shadow: -8px 8px 16px 0 rgba(5, 5, 5, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.cta-bottom a:hover {
+    background: #092c58;
+    color:#fff;
+    /*opacity: 80%;*/
+
+    -webkit-transition: all 500ms ease; /* slows down hover effect*/
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
