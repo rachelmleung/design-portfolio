@@ -258,7 +258,7 @@ button {
     padding: 0 0 0 0;
 }
 
-.bio-img img {
+.bio-img {
     width:100%;
 }
 
@@ -511,6 +511,105 @@ button {
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
+}
+ 
+/*====================== ABOUT - MOBILE =======================*/
+
+.bio-top {
+    background: #333;
+    padding: 0 0 0 0;
+
+}
+
+.bio-img {
+    width:35%;
+    float:right;
+    
+}
+
+.bio-img img {
+    width:100%;
+}
+
+.bio-intro {
+    width:65%;
+    padding: 5% 0 5% 0;
+    background:#bbd1d9;
+    display: inline-block;
+    
+    
+}
+
+.bio-intro h2 {
+    margin: 0 0 1% 5%;
+    padding: 0 0 3% 0;
+}
+
+.bio-intro h4 {
+    margin: 0 0 1% 5%;
+    padding: 0 0 3% 0;
+}
+
+.bio-intro p {
+    margin: 0 5% 1% 5%;
+    padding: 0 0 3% 0;
+}
+    
+
+.skills {
+    padding: 8% 0 8% 0;    
+    
+}
+
+.skills h4 {
+    margin: 0 0 5% 5%;
+}
+
+.skills p {
+    margin: 0 0 0 5%;
+}
+    
+.technical {
+    width:30%;
+    display:inline-block;
+    }
+    
+.design {
+    width:30%;
+    display:inline-block;
+    }
+    
+.marketing {
+    width:30%;
+    display:inline-block;
+    }
+.main-about {
+
+    background:#ddd;
+    padding: 8% 0 8% 0;
+}
+
+.main-about h4 {
+    margin: 0 0 1% 5%;
+    padding: 0 0 3% 0; /* pull background color up unlike margin*/
+}
+
+.main-about p {
+    margin: 0 5% 0 5%;
+}
+
+.more-bio {
+    background:#e31f72;
+    padding: 8% 0 8% 0;
+}
+
+.more-bio h4 {
+    margin: 0 0 1% 5%;
+    padding: 0 0 3% 0;
+}
+
+.more-bio p {
+    margin: 0 0 0 5%;
 }
     
     /*==================  FOOTER  - TABLET ==================*/
