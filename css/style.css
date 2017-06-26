@@ -23,6 +23,15 @@ h2 {
     font-family: 'Lato';   
 }
 
+h4 {
+    font-family: 'Lato';   
+}
+
+p {
+    font-family: 'Lato'; 
+    line-height: 1.8em;
+}
+
 
 /*==================  GLOBAL ==================*/
 
@@ -120,7 +129,7 @@ button {
     transition: all 500ms ease;
 }
 
-.skills-preview {
+.service-preview {
     margin: 30% 0 0 0;
     padding: 0 0 8% 0;
     background:rgba(255, 255, 255, 0.56);
@@ -142,25 +151,25 @@ button {
 }
 
 
-.skill {
+.service {
     width:100%;   
     padding: 0 0 5% 0;
 }
 
-.skill h1 /* just using this to do text-align for the icon i*/ {
+.service h1 /* just using this to do text-align for the icon i*/ {
 
     text-align: center;
     
 }
 
-.skill i {
+.service i {
     font-size: 3em;
     color:#092bb5;
 ;
     text-shadow: -1px 0 #666, 0 1px #666, 1px 0 #666, 0 -1px #666;
 }
 
-.skill h2 {
+.service h2 {
     font-family: 'Lato';
     font-weight: 700;
     font-size:1.2em;
@@ -169,7 +178,7 @@ button {
     color:#333;
 }
 
-.skill p {
+.service p {
     font-family: 'Open Sans';
     font-weight: normal;
     font-size: 1em;
@@ -242,6 +251,82 @@ button {
 
 
 
+/*====================== ABOUT - MOBILE =======================*/
+
+.bio-top {
+    background: #333;
+    padding: 0 0 0 0;
+}
+
+.bio-img img {
+    width:100%;
+}
+
+.bio-img img {
+    width:100%;
+}
+
+.bio-intro {
+    padding: 8% 0 8% 0;
+    background:#bbd1d9;
+    
+}
+
+.bio-intro h2 {
+    margin: 0 0 1% 5%;
+    padding: 0 0 3% 0;
+}
+
+.bio-intro h4 {
+    margin: 0 0 1% 5%;
+    padding: 0 0 3% 0;
+}
+
+.bio-intro p {
+    margin: 0 0 1% 5%;
+    padding: 0 0 3% 0;
+}
+
+.skills {
+    padding: 8% 0 8% 0;    
+    
+}
+
+.skills h4 {
+    margin: 0 0 5% 5%;
+}
+
+.skills p {
+    margin: 0 0 0 5%;
+}
+.main-about {
+
+    background:#ddd;
+    padding: 8% 0 8% 0;
+}
+
+.main-about h4 {
+    margin: 0 0 1% 5%;
+    padding: 0 0 3% 0; /* pull background color up unlike margin*/
+}
+
+.main-about p {
+    margin: 0 0 0 5%;
+}
+
+.more-bio {
+    background:#e31f72;
+    padding: 8% 0 8% 0;
+}
+
+.more-bio h4 {
+    margin: 0 0 1% 5%;
+    padding: 0 0 3% 0;
+}
+
+.more-bio p {
+    margin: 0 0 0 5%;
+}
 /*====================== TABLET =======================*/
 /*====================== TABLET =======================*/
 /*====================== TABLET =======================*/
@@ -302,7 +387,7 @@ button {
     transition: all 500ms ease;
 }
 
-.skills-preview {
+.service-preview {
     margin: 30% 0 0 0;
     padding: 0 0 8% 0;
     background:rgba(255, 255, 255, 0.56);
@@ -324,26 +409,26 @@ button {
 }
     
 
-.skill {
+.service {
     width:32%;   
     display: inline-block;
     padding: 0 0 5% 0;
 }
 
-.skill h1 /* just using this to do text-align for the icon i*/ {
+.service h1 /* just using this to do text-align for the icon i*/ {
 
     text-align: center;
     
 }
 
-.skill i {
+.service i {
     font-size: 3em;
     color:#092bb5;
 ;
     text-shadow: -1px 0 #666, 0 1px #666, 1px 0 #666, 0 -1px #666;
 }
 
-.skill h2 {
+.service h2 {
     font-family: 'Lato';
     font-weight: 700;
     font-size:1.2em;
@@ -352,7 +437,7 @@ button {
     color:#333;
 }
 
-.skill p {
+.service p {
     font-family: 'Open Sans';
     font-weight: normal;
     font-size: 1em;
@@ -522,7 +607,7 @@ button {
     transition: all 500ms ease;
 }
 
-.skills-preview {
+.service-preview {
     margin: 0 0 0 0;
     padding: 0 0 8% 0;
     background:rgba(255, 255, 255, 0.56);
@@ -544,27 +629,27 @@ button {
 }
     
 
-.skill {
+.service {
     width:30%;   
     display: inline-block;
     padding: 0 0 5% 0;
     margin: 0 1% 0 2%;
 }
 
-.skill h1 /* just using this to do text-align for the icon i*/ {
+.service h1 /* just using this to do text-align for the icon i*/ {
 
     text-align: center;
     
 }
 
-.skill i {
+.service i {
     font-size: 3em;
     color:#092bb5;
 ;
     text-shadow: -1px 0 #666, 0 1px #666, 1px 0 #666, 0 -1px #666;
 }
 
-.skill h2 {
+.service h2 {
     font-family: 'Lato';
     font-weight: 700;
     font-size:1.4em;
@@ -573,7 +658,7 @@ button {
     color:#333;
 }
 
-.skill p {
+.service p {
     font-family: 'Open Sans';
     font-weight: normal;
     font-size: 1.2em;
