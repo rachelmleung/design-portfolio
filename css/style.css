@@ -89,14 +89,35 @@ button {
 }
 
 .home-cta {
-    margin: 0 0 5% 0;
-    background:#092bb5;
-    padding: 3% 4% 3% 4%;
+    width:70%;
+    margin: 5% 15% 0 15%;
+    background: none;
 }
 
 .home-cta a {
+    text-align: center;
+    text-decoration: none;
+    padding: 6% 7% 6% 7%;
+    background:#092bb5;
+    font-size: 1.1em;
+    font-family: 'Lato';
+    font-weight: 400;
     color:#fff;
-    
+    text-transform:uppercase;
+    /*border: 2px #333 solid; */
+    box-shadow: -8px 8px 16px 0 rgba(5, 5, 5, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.home-cta a:hover {
+    background: #002ff0;
+    color:#fff;
+    /*opacity: 80%;*/
+
+    -webkit-transition: all 500ms ease; /* slows down hover effect*/
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
 
 .skills-preview {
@@ -119,6 +140,7 @@ button {
     color:#e31f72;
 
 }
+
 
 .skill {
     width:100%;   
@@ -160,9 +182,9 @@ button {
 
 .home-bottom {
     width:100%;
-    background: none;   
+    background: #333; 
     margin: 0;
-    padding: 0 0 3% 0;
+    padding: 0 0 15% 0;
 }
 
 .bottom-img {
@@ -188,26 +210,26 @@ button {
 
 .cta-bottom {
     width:70%;
-    margin: 10% 15% 0 15%;
+    margin: 8% 15% 0 15%;
+    background: none;
 }
 
 .cta-bottom a {
-    width:100%;
     text-align: center;
     text-decoration: none;
-    padding: 7% 8% 7% 8%;
-    background: #fff;
-    font-size: 1em;
+    padding: 6% 7% 6% 7%;
+    background:#092bb5;
+    font-size: 1.1em;
     font-family: 'Lato';
-    font-weight: 700;
-    color:#3f8fe6;
+    font-weight: 400;
+    color:#fff;
     text-transform:uppercase;
     /*border: 2px #333 solid; */
     box-shadow: -8px 8px 16px 0 rgba(5, 5, 5, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .cta-bottom a:hover {
-    background: #092c58;
+    background: #002ff0;
     color:#fff;
     /*opacity: 80%;*/
 
@@ -226,37 +248,7 @@ button {
 
 @media screen and (min-width:768px) {
 
-/*==================  FOOTER  - TABLET ==================*/
-.footer-copyright {
-    text-align: center;
-    background:none;
-    margin: 2% 0 0 0;
-}
 
-.footer-copyright i {
-    font-size: .8em;
-    color:#333;  
-    padding: 0 5% 0 0;    
-}
-
-.year {
-    color:#333; 
-    display:inline-block;
-    margin:0 0 0 -4%;
-    font-size: .8em;
-    font-family: 'Open Sans';
-}
-
-.copyright {
-    display:inline-block;
-}
-
-.copyright p { 
-    font-family: 'Open Sans';
-    font-size: .8em;
-    color:#333;    
-}
-    
 /*==================  HOME - TABLET ==================*/
 
 .name {
@@ -279,15 +271,35 @@ button {
 }
 
 .home-cta {
-    margin: 5% 0 5% 0;
-    background:#092bb5;
-    padding: 3% 4% 3% 4%;
+    width:70%;
+    margin: 5% 15% 0 15%;
+    background: none;
 }
 
 .home-cta a {
+    text-align: center;
+    text-decoration: none;
+    padding: 4% 5% 4% 5%;
+    background:#092bb5;
+    font-size: 1.2em;
+    font-family: 'Lato';
+    font-weight: 400;
     color:#fff;
-    font-size: 1.3em;
-    
+    text-transform:uppercase;
+    /*border: 2px #333 solid; */
+    box-shadow: -8px 8px 16px 0 rgba(5, 5, 5, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.home-cta a:hover {
+    background: #002ff0;
+    color:#fff;
+    /*opacity: 80%;*/
+
+    -webkit-transition: all 500ms ease; /* slows down hover effect*/
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
 }
 
 .skills-preview {
@@ -300,7 +312,7 @@ button {
 }
 
 .section-title h2 {
-    margin: 5% 0 3% 0;
+    margin: 5% 0 3%  0;
     text-align: center;
     font-size: 1.6em;
     text-transform: uppercase;
@@ -310,6 +322,7 @@ button {
     color:#e31f72;
 
 }
+    
 
 .skill {
     width:32%;   
@@ -356,7 +369,7 @@ button {
     margin: 0;
     padding: 0 0 0 0;
     border-bottom:1px #000 solid;
-    overflow:hidden
+    overflow:hidden;
 }
 
 .bottom-img {
@@ -372,38 +385,133 @@ button {
 
 .home-bottom h2 {
     width:55%; /* include bottom IMG width*/
-    margin:0 5% 0 5%;
-    padding:6% 0 2% 0 ;
+    margin:5% 5% 3% 5%;
+    padding:0 0 0 0 ;
     font-family: 'Open Sans';
     font-weight: 400; /* normal */
     color:#fff;
     letter-spacing: 1.5px;
     line-height: 1.8em;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .cta-bottom {
     width:70%;
-    margin: 10% 15% 0 15%;
+    margin: 7% 0 0 5%;
+    background: none;
 }
 
 .cta-bottom a {
-    width:100%;
     text-align: center;
     text-decoration: none;
-    padding: 7% 8% 7% 8%;
-    background: #fff;
-    font-size: 1em;
+    padding: 4% 5% 4% 5%;
+    background:#092bb5;
+    margin:0;
+    font-size: 1.1em;
     font-family: 'Lato';
-    font-weight: 700;
-    color:#3f8fe6;
+    font-weight: 400;
+    color:#fff;
     text-transform:uppercase;
     /*border: 2px #333 solid; */
     box-shadow: -8px 8px 16px 0 rgba(5, 5, 5, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .cta-bottom a:hover {
-    background: #092c58;
+    background: #002ff0;
+    color:#fff;
+    /*opacity: 80%;*/
+
+    -webkit-transition: all 500ms ease; /* slows down hover effect*/
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+    
+    /*==================  FOOTER  - TABLET ==================*/
+.footer-copyright {
+    text-align: center;
+    background:none;
+    margin: 2% 0 0 0;
+}
+
+.footer-copyright i {
+    font-size: .8em;
+    color:#333;  
+    padding: 0 5% 0 0;    
+}
+
+.year {
+    color:#333; 
+    display:inline-block;
+    margin:0 0 0 -4%;
+    font-size: .8em;
+    font-family: 'Open Sans';
+}
+
+.copyright {
+    display:inline-block;
+}
+
+.copyright p { 
+    font-family: 'Open Sans';
+    font-size: .8em;
+    color:#333;    
+}
+    
+ 
+}
+/* =================== DESKTOP ======================== */
+/* =================== DESKTOP ======================== */
+/* =================== DESKTOP ======================== */
+
+@media screen and (min-width:940px) {
+    
+
+    
+/*==================  HOME - TABLET ==================*/
+
+.name {
+
+}
+
+.name h1 {
+    margin:12% 0 0 0 ;
+    font-size: 6em;
+    color:#e31f72;
+
+}
+
+.name h2 {
+    font-weight: 700; 
+    font-size: 2em;
+    color:#555252;
+    margin: 0 0 5% 0;
+
+}
+
+.home-cta {
+    width:70%;
+    margin: 5% 15% 5% 15%;
+    background: none;
+}
+
+.home-cta a {
+    text-align: center;
+    text-decoration: none;
+    padding: 2% 4% 2% 4%;
+    background:#092bb5;
+    font-size: 1.4em;
+    font-family: 'Lato';
+    font-weight: 400;
+    color:#fff;
+    text-transform:uppercase;
+    /*border: 2px #333 solid; */
+    box-shadow: -8px 8px 16px 0 rgba(5, 5, 5, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.home-cta a:hover {
+    background: #002ff0;
     color:#fff;
     /*opacity: 80%;*/
 
@@ -414,7 +522,160 @@ button {
     transition: all 500ms ease;
 }
 
+.skills-preview {
+    margin: 0 0 0 0;
+    padding: 0 0 8% 0;
+    background:rgba(255, 255, 255, 0.56);
+}
 
+.section-title {    
+}
+
+.section-title h2 {
+    margin: 5% 0 3% 0;
+    text-align: center;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    padding: 8% 0 0 0;
+    color:#e31f72;
+
+}
     
+
+.skill {
+    width:30%;   
+    display: inline-block;
+    padding: 0 0 5% 0;
+    margin: 0 1% 0 2%;
+}
+
+.skill h1 /* just using this to do text-align for the icon i*/ {
+
+    text-align: center;
     
+}
+
+.skill i {
+    font-size: 3em;
+    color:#092bb5;
+;
+    text-shadow: -1px 0 #666, 0 1px #666, 1px 0 #666, 0 -1px #666;
+}
+
+.skill h2 {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size:1.4em;
+    text-align: center;
+    text-transform: uppercase;
+    color:#333;
+}
+
+.skill p {
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0 5% 0 5%;
+    padding: 0 0 0 0;
+    color:#333;
+
+}
+
+.home-bottom {
+    width:100%;
+    background: #333;   
+    margin: 0;
+    padding: 0 0 0 0;
+    border-bottom:1px #000 solid;
+    overflow:hidden
+}
+
+.bottom-img {
+    width:25%;
+    margin: 0 10% 0 5%;
+    float:right;
+}
+
+.bottom-img img {
+    width:100%;
+}
+
+
+.home-bottom h2 {
+    width:55%; /* include bottom IMG width*/
+    margin:6% 5% 3% 10%;
+    padding:0 0 0 0 ;
+    font-family: 'Open Sans';
+    font-weight: 400; /* normal */
+    color:#fff;
+    letter-spacing: 1.5px;
+    line-height: 1.8em;
+    font-size: 1.5em;
+}
+
+.cta-bottom {
+    width:70%;
+    margin: 5% 0 0 10%;
+    background: none;
+}
+
+.cta-bottom a {
+    text-align: center;
+    text-decoration: none;
+    padding: 2% 4% 2% 4%;
+    background:#092bb5;
+    font-size: 1.2em;
+    font-family: 'Lato';
+    font-weight: 400;
+    color:#fff;
+    text-transform:uppercase;
+    /*border: 2px #333 solid; */
+    box-shadow: -8px 8px 16px 0 rgba(5, 5, 5, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.cta-bottom a:hover {
+    background: #002ff0;
+    color:#fff;
+    /*opacity: 80%;*/
+
+    -webkit-transition: all 500ms ease; /* slows down hover effect*/
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+ 
+/*==================  FOOTER  - TABLET ==================*/
+.footer-copyright {
+    text-align: center;
+    background:none;
+    margin: 2% 0 0 0;
+}
+
+.footer-copyright i {
+    font-size: .8em;
+    color:#333;  
+    padding: 0 5% 0 0;    
+}
+
+.year {
+    color:#333; 
+    display:inline-block;
+    margin:0 0 0 -4%;
+    font-size: .8em;
+    font-family: 'Open Sans';
+}
+
+.copyright {
+    display:inline-block;
+}
+
+.copyright p { 
+    font-family: 'Open Sans';
+    font-size: .8em;
+    color:#333;    
+}    
 }
