@@ -219,7 +219,6 @@ button {
 
 .cta-bottom {
     width:70%;
-    margin: 8% 15% 0 15%;
     background: none;
 }
 
@@ -283,22 +282,11 @@ button {
 }
 
 .bio-intro p {
-    margin: 0 0 1% 5%;
+    margin: 0 5% 1% 5%;
     padding: 0 0 3% 0;
 }
 
-.skills {
-    padding: 8% 0 8% 0;    
-    
-}
 
-.skills h4 {
-    margin: 0 0 5% 5%;
-}
-
-.skills p {
-    margin: 0 0 0 5%;
-}
 .main-about {
 
     background:#ddd;
@@ -311,7 +299,7 @@ button {
 }
 
 .main-about p {
-    margin: 0 0 0 5%;
+    margin: 0 5% 1% 5%;
 }
 
 .more-bio {
@@ -325,7 +313,186 @@ button {
 }
 
 .more-bio p {
-    margin: 0 0 0 5%;
+    margin: 0 5% 1% 5%;
+}
+
+/*---------- Portfolio Page - MOBILE ----------------*/
+
+.portfolio {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 2% 0% 2%;
+    padding: 3% 0 0 0;
+}
+
+.portfolio h1 { /* POrtfolio header */
+    font-family: 'Lato';
+    font-size: 4em;
+    margin: 0 0 0 0;
+    text-align: center;
+    
+}
+
+.portfolio h3 { /* POrtfolio subheader */
+    font-family:'Julius Sans One';
+    font-size: 1em;
+    margin: 0 0 8% 0;
+    text-align: center;
+}
+
+.portfolio-feed {
+    margin:0;
+    width:98%;
+}
+
+.project-preview img {
+    width: 98%;
+    margin-bottom: 3%;
+    padding: 0 0 5% 0;
+ }
+
+.project-preview .line {
+    border-color: #999;
+    margin: 0 0 15px 0;
+    width: 15%;
+}
+
+.project-preview h2 {
+    font-family: 'Merriweather';
+    color: #092c58;
+    margin: 3% 0 0 0; 
+}
+
+.project-preview h4 {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    text-transform: none;
+    font-size: 1.2em;
+    padding: 2% 0 5% 0;
+    margin: 0 0 10% 0;
+    color:#333;
+ }
+
+.project-preview a {
+    text-decoration: none;
+    color: #4d9cee;
+} 
+
+
+/* ---------- project details page - MOBILE ---------------*/
+
+
+.project-detail {
+    width:96%;
+    margin:0;
+}
+
+.project-img img {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 3% 0 0 0;
+ }
+
+.project-detail-top{
+    width: 94%;
+    margin: 0 3% 0 3%;
+}
+
+.project-detail-top h1 {
+    font-family: 'Merriweather';
+    color: #092c58;
+    margin: 5% 0 5% 0; 
+    font-size: 2em;
+}
+
+.project-detail-top h4 {
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color:#3f8fe6;
+    padding: 0 0 5% 0;
+    margin: 0 0 5% 0;
+}
+
+.case-study {
+    width: 94%;
+    margin: 0 3% 0 3%;
+    padding: 5% 0 0 0;
+}
+
+
+.case-study h2 {
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-size: 1.1em;
+    padding: 0;
+    margin: 0;
+    color:#333;
+     
+ }
+
+.case-study p {
+    font-family:'Open Sans';
+    background-color: #fff;
+    font-size:1em;
+    line-height: 1.7em;
+}
+
+.case-study ul li {
+    font-family:'Open Sans';
+    background-color: #fff;
+    font-size:1em;
+    line-height: 1.7em;
+}   
+
+.case-study img {
+    padding: 0 0 5% 0;
+}
+
+.project-button {
+    margin: 15% 0 0 0;
+    padding: 0 0 10% 0;
+}
+
+.project-button a {
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 5% 8% 5% 8%;
+    background: #092c58;
+    font-size: 1em;
+    font-family: 'Julius Sans One';
+    font-weight: 700;
+    color:#fff;
+    text-transform:uppercase;
+    border: 2px solid #092c58;
+    /*border: 2px #333 solid; */
+    box-shadow: -8px 8px 16px 0 rgba(5, 5, 5, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.project-button a:hover {
+    background: #3f8fe6;
+    color:#fff;
+    border: 2px solid #3f8fe6;
+}
+
+.back-services {
+    margin: 10% 0 5% 0;    
+}
+
+.back-services a {
+    font-family: 'Open Sans';
+    color:#3f8fe6;
+    text-decoration: none;
+    padding: 0 0 1% 0;
+    text-transform: uppercase;
+}
+
+.back-services a:hover {
+    color:#3f8fe6;
+    text-transform: uppercase;
+    border-bottom: 1px #092c58 solid;
 }
 /*====================== TABLET =======================*/
 /*====================== TABLET =======================*/
@@ -513,11 +680,12 @@ button {
     transition: all 500ms ease;
 }
  
-/*====================== ABOUT - MOBILE =======================*/
+/*====================== ABOUT - TABLET =======================*/
 
 .bio-top {
     background: #333;
     padding: 0 0 0 0;
+    overflow: hidden;
 
 }
 
@@ -556,19 +724,6 @@ button {
 }
     
 
-.skills {
-    padding: 8% 0 8% 0;    
-    
-}
-
-.skills h4 {
-    margin: 0 0 5% 5%;
-}
-
-.skills p {
-    margin: 0 0 0 5%;
-}
-    
 .technical {
     width:30%;
     display:inline-block;
@@ -611,6 +766,188 @@ button {
 .more-bio p {
     margin: 0 0 0 5%;
 }
+
+    
+    
+/*---------- Portfolio Page  - TABLET ----------------*/
+
+.portfolio {
+    width: 100%;
+    margin: 0;
+}
+
+.portfolio h1 {
+    font-family: 'Caveat';
+    font-size: 6em;
+    margin: 10% 0 0 0;
+    text-align: center;
+    
+}
+
+.portfolio h3 {
+    font-family:'Julius Sans One';
+    font-size: 1.2em;
+    margin: 0 0 8% 0;
+    text-align: center;
+}
+
+
+.portfolio-feed {
+    width:100%;
+    margin:0 0 0 1%;
+}
+
+.project-preview {
+    width:30%;
+    display: inline-block;
+    margin: 0 1% 0 1%;
+}
+
+.project-preview img {
+    width: 100%;
+ }
+
+.project-preview h2 {
+    font-family: 'Merriweather';
+    color: #092c58;
+    margin: 3% 0 3% 0; 
+    font-size: 1.1em;
+}
+    
+
+.project-preview h4 {
+    font-family: 'Open Sans';
+    font-size: 1em;
+    width:100%;
+    color:#333;
+    
+ }
+
+.project-preview a {
+    text-decoration: none;
+    color: #4d9cee;
+    
+} 
+
+
+/* ---------- project details page - TABLET ---------------*/
+
+
+.project-detail {
+    width:90%;
+    margin: 0 5% 0 5%;
+}
+
+.project-img img {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 3% 0 0 0;
+ }
+
+.project-detail-top {
+    padding: 0 0 4% 0;
+}
+    
+.project-detail-top h1 {
+    font-family: 'Merriweather';
+    color: #092c58;
+    margin: 2% 0 2% 0; 
+    font-size: 2.6em;
+}
+
+.project-detail-top h4 {
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color:#3f8fe6;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.case-study {
+    padding: 5% 0 2% 0;
+}
+
+
+.case-study h2 {
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    color:#333;
+     
+ }
+
+.case-study p {
+    font-family:'Open Sans';
+    background-color: #fff;
+    font-size:1em;
+    line-height: 1.7em;
+    padding: 0 0 2% 0;
+}
+
+.case-study ul {
+    margin: 2% 0 5% 0;
+    
+    }
+.case-study ul li {
+    font-family:'Open Sans';
+    background-color: #fff;
+    font-size:1em;
+    line-height: 1.7em;
+}   
+
+.case-study img {
+    padding: 5% 0 3% 0;
+}
+
+.project-button {
+    margin: 12% 0 0 0;
+    padding: 0 0 10% 0;
+}
+
+.project-button a {
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 5% 8% 5% 8%;
+    background: #092c58;
+    font-size: 1.2em;
+    font-family: 'Julius Sans One';
+    color:#fff;
+    text-transform:uppercase;
+    border: 2px solid #092c58;
+    /*border: 2px #333 solid; */
+    box-shadow: -8px 8px 16px 0 rgba(5, 5, 5, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.project-button a:hover {
+    background: #3f8fe6;
+    color:#fff;
+    border: 2px solid #3f8fe6;
+}
+
+    
+.back-services {
+    width:90%;
+    margin: 0 5% 5% 5%; 
+}
+
+.back-services a {
+    font-family: 'Open Sans';
+    color:#3f8fe6;
+    text-decoration: none;
+    padding: 0 0 1% 0;
+    text-transform: uppercase;
+}
+
+.back-services a:hover {
+    color:#3f8fe6;
+    text-decoration: uppercase;
+    border-bottom: 1px #092c58 solid;
+}
+
     
     /*==================  FOOTER  - TABLET ==================*/
 .footer-copyright {
@@ -790,7 +1127,7 @@ button {
 
 .home-bottom h2 {
     width:55%; /* include bottom IMG width*/
-    margin:6% 5% 3% 10%;
+    margin:3% 5% 3% 10%;
     padding:0 0 0 0 ;
     font-family: 'Open Sans';
     font-weight: 400; /* normal */
@@ -831,7 +1168,288 @@ button {
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
 }
- 
+
+
+/*====================== ABOUT - DESKTOP =======================*/
+
+.bio-top {
+    background: #333;
+    padding: 0 0 0 0;
+    overflow: hidden;
+
+}
+
+.bio-img {
+    width:25%;
+    float:right;
+    margin: 0 15% 0 0;
+    
+}
+
+.bio-img img {
+    width:100%;
+}
+
+.bio-intro {
+    width:50%;
+    padding: 0 0 0 0;
+    margin: 4% 0 0 10%;
+    background:#bbd1d9;
+    display: inline-block;
+    
+    
+}
+
+.bio-intro h2 {
+    font-size: 2em;
+    margin: 0 0 1% 5%;
+    padding: 0 0 0 0;
+}
+
+.bio-intro h4 {
+    margin: 0 0 1% 5%;
+    padding: 0 0 3% 0;
+    color:#626060;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.bio-intro p {
+    margin: 0 5% 1% 5%;
+    padding: 0 0 0 0;
+    font-size: 1.1em;
+}
+    
+.main-about {
+
+    background:#ddd;
+    padding: 6% 0 6% 0;
+}
+
+.main-about h4 {
+    font-size:1.6em;
+    margin: 0 0 1% 13%;
+    padding: 0 0 1% 0;
+    }
+
+.main-about p {
+    margin: 0 13% 0 13%;
+    font-size: 1.2em;
+}
+
+.more-bio {
+    background:#e31f72;
+    padding: 6% 0 6% 0;
+}
+
+.more-bio h4 {
+    font-size:1.6em;
+    margin: 0 0 1% 13%;
+    padding: 0 0 1% 0;
+}
+
+.more-bio p {
+    margin: 0 13% 0 13%;
+    font-size: 1.1em;
+}
+    
+/*---------- Portfolio Page  - DESKTOP ----------------*/
+
+.portfolio {
+    width: 100%;
+    margin: 0;
+}
+
+.portfolio h1 {
+    font-family: 'Caveat';
+    font-size: 6em;
+    margin: 0 0 0 0;
+    text-align: center;
+    
+}
+
+.portfolio h3 {
+    font-family:'Julius Sans One';
+    font-size: 1.2em;
+    margin: 0 0 5% 0;
+    text-align: center;
+}
+
+.section-title h3 { 
+    width:100%;
+    font-family: 'Julius Sans One';
+    color: #000;
+    background:#fff;
+    font-size: 1.2em;
+}
+
+.portfolio-feed {
+    width:100%;
+    margin:0 0 0 1%;
+}
+
+.project-preview {
+    width:22%;
+    display: inline-block;
+    margin: 0 1% 0 1%;
+}
+
+.project-preview img {
+    width: 100%;
+ }
+
+.project-preview h2 {
+    font-family: 'Merriweather';
+    color: #092c58;
+    margin: 3% 0 3% 0; 
+    font-size: 1.4em;
+}
+    
+
+.project-preview h4 {
+    font-family: 'Open Sans';
+    font-size: 1.3em;
+    width:100%;
+    color:#333;
+    
+ }
+
+.project-preview a {
+    text-decoration: none;
+    color: #4d9cee;
+    
+} 
+
+
+/* ---------- project details page - DESKTOP ---------------*/
+
+
+.project-detail {
+    width:90%;
+    margin: 0 5% 0 5%;
+}
+.project-img{
+    width:74%;
+    margin: 0 13% 0 13%;
+    
+    }
+.project-img img {
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 3% 0 0 0;
+ }
+
+.project-detail-top {
+    padding: 0 0 4% 0;
+    width: 80%;
+    margin: 0 10% 0 10%;
+}
+    
+.project-detail-top h1 {
+    font-family: 'Merriweather';
+    color: #092c58;
+    margin: 2% 0 1% 0; 
+    font-size: 2.8em;
+}
+
+.project-detail-top h4 {
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color:#3f8fe6;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+.case-study {
+    width: 80%;
+    padding: 2% 0 2% 0;
+    margin: 0 10% 0 10%;
+}
+
+
+.case-study h2 {
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    color:#333;
+     
+ }
+
+.case-study p {
+    font-family:'Open Sans';
+    background-color: #fff;
+    font-size:1.2em;
+    line-height: 1.7em;
+    padding: 0 0 2% 0;
+}
+
+.case-study ul {
+    margin: 2% 0 5% 0;
+    
+    }
+.case-study ul li {
+    font-family:'Open Sans';
+    background-color: #fff;
+    font-size:1.2em;
+    line-height: 1.7em;
+}   
+
+.case-study img {
+    padding: 5% 0 3% 0;
+}
+
+.project-button {
+    margin: 8% 0 0 0;
+    padding: 0 0 10% 0;
+}
+
+.project-button a {
+    width:100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 2% 5% 2% 5%;
+    background: #092c58;
+    font-size: 1.2em;
+    font-family: 'Julius Sans One';
+    color:#fff;
+    text-transform:uppercase;
+    border: 2px solid #092c58;
+    /*border: 2px #333 solid; */
+    box-shadow: -8px 8px 16px 0 rgba(5, 5, 5, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.project-button a:hover {
+    background: #3f8fe6;
+    color:#fff;
+    border: 2px solid #3f8fe6;
+}
+
+    
+.back-services {
+    width:90%;
+    margin: 0 5% 5% 5%; 
+}
+
+.back-services a {
+    font-family: 'Open Sans';
+    color:#3f8fe6;
+    text-decoration: none;
+    padding: 0 0 1% 0;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.back-services a:hover {
+    color:#3f8fe6;
+    text-decoration: uppercase;
+    border-bottom: 1px #092c58 solid;
+}
+
+    
+    
 /*==================  FOOTER  - TABLET ==================*/
 .footer-copyright {
     text-align: center;
