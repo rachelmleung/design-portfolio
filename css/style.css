@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-    background:#f7dfcb;
+    background:#fff;
 }
 
 h1 {
@@ -132,7 +132,7 @@ button {
 .service-preview {
     margin: 30% 0 0 0;
     padding: 0 0 8% 0;
-    background:rgba(255, 255, 255, 0.56);
+    background:#f7dfcb;
 }
 
 .section-title {    
@@ -165,7 +165,6 @@ button {
 .service i {
     font-size: 3em;
     color:#092bb5;
-;
     text-shadow: -1px 0 #666, 0 1px #666, 1px 0 #666, 0 -1px #666;
 }
 
@@ -191,7 +190,7 @@ button {
 
 .home-bottom {
     width:100%;
-    background: #333; 
+    background:rgba(247, 223, 203, 0.47) ; 
     margin: 0;
     padding: 0 0 15% 0;
 }
@@ -211,7 +210,7 @@ button {
     padding:8% 0 5% 0 ;
     font-family: 'Open Sans';
     font-weight: 400; /* normal */
-    color:#fff;
+    color:#333;
     letter-spacing: 1.5px;
     line-height: 1.8em;
     font-size: 1.3em;
@@ -267,18 +266,24 @@ button {
 
 .bio-intro {
     padding: 8% 0 8% 0;
-    background:#bbd1d9;
+    background:#fff;
     
 }
 
 .bio-intro h2 {
+    font-family: 'Monoton';
+    font-size: 4em;
     margin: 0 0 1% 5%;
     padding: 0 0 3% 0;
+    color:#e31f72;
 }
 
 .bio-intro h4 {
-    margin: 0 0 1% 5%;
+    margin: 0 5% 1% 5%;
     padding: 0 0 3% 0;
+    color:#092bb5;
+    font-size: 1.4em;
+    line-height: 1.5em;
 }
 
 .bio-intro p {
@@ -289,7 +294,7 @@ button {
 
 .main-about {
 
-    background:#ddd;
+    background:#f7dfcb;
     padding: 8% 0 8% 0;
 }
 
@@ -303,17 +308,19 @@ button {
 }
 
 .more-bio {
-    background:#e31f72;
+    background:#092bb5;
     padding: 8% 0 8% 0;
 }
 
 .more-bio h4 {
     margin: 0 0 1% 5%;
     padding: 0 0 3% 0;
+    color:#fff;
 }
 
 .more-bio p {
     margin: 0 5% 1% 5%;
+    color:#fff;
 }
 
 /*---------- Portfolio Page - MOBILE ----------------*/
@@ -358,7 +365,7 @@ button {
 }
 
 .project-preview h2 {
-    font-family: 'Merriweather';
+    font-family: 'Lato';
     color: #092c58;
     margin: 3% 0 0 0; 
 }
@@ -494,6 +501,68 @@ button {
     text-transform: uppercase;
     border-bottom: 1px #092c58 solid;
 }
+
+/* -------------------- Contact Page - MOBILE ---------------- */
+
+
+.contact h1 {  /* Contact header */
+    font-family: 'Caveat';
+    font-size: 4em;
+    margin: 0 0 0 0;
+    text-align: center;
+    padding: 3% 0 0 0;
+    
+}
+
+.contact h3 { /* Contact subheader */
+    font-family:'Julius Sans One';
+    font-size: 1em;
+    margin: 0 0 5% 0;
+    text-align: center;
+}
+
+.details-container { /* left pic section */
+    width: 94%;
+    margin:0 3% 5% 3%;
+    padding: 0 0 8% 0;
+}
+
+    
+.contact-details {
+    width:100%;
+    margin:auto;
+    padding: 5% 0 0 0;
+    }
+
+.contact-details img {
+    width:100%;
+    margin:auto;
+    padding: 5% 0 0 0;
+    }
+
+.form-container { /* right section */
+    
+}
+.contact-question {
+    width: 94%;
+    margin: 0 3% 0 3%;
+    
+}
+
+.contact-question h1 {
+    font-family: 'Caveat';
+    margin:0;
+}
+
+.contact-question p {
+    font-family: 'Open Sans';
+    padding: 0 0 5% 0;
+}
+
+.contact-question h2 {
+    font-family: 'Caveat';
+}
+
 /*====================== TABLET =======================*/
 /*====================== TABLET =======================*/
 /*====================== TABLET =======================*/
@@ -557,7 +626,7 @@ button {
 .service-preview {
     margin: 30% 0 0 0;
     padding: 0 0 8% 0;
-    background:rgba(255, 255, 255, 0.56);
+    background:#f7dfcb;
 }
 
 .section-title {    
@@ -617,7 +686,7 @@ button {
 
 .home-bottom {
     width:100%;
-    background: #333;   
+    background: rgba(247, 223, 203, 0.47);   
     margin: 0;
     padding: 0 0 0 0;
     border-bottom:1px #000 solid;
@@ -641,7 +710,7 @@ button {
     padding:0 0 0 0 ;
     font-family: 'Open Sans';
     font-weight: 400; /* normal */
-    color:#fff;
+    color:#333;
     letter-spacing: 1.5px;
     line-height: 1.8em;
     font-size: 1.2em;
@@ -691,6 +760,7 @@ button {
 
 .bio-img {
     width:35%;
+    margin: 3% 0 0 0;
     float:right;
     
 }
@@ -702,7 +772,7 @@ button {
 .bio-intro {
     width:65%;
     padding: 5% 0 5% 0;
-    background:#bbd1d9;
+    background:#fff;
     display: inline-block;
     
     
@@ -710,12 +780,14 @@ button {
 
 .bio-intro h2 {
     margin: 0 0 1% 5%;
-    padding: 0 0 3% 0;
+    padding: 0 0 0 0;
 }
 
 .bio-intro h4 {
-    margin: 0 0 1% 5%;
+    margin: 0 3% 1% 5%;
     padding: 0 0 3% 0;
+    line-height: 1.5em;
+    font-size: 1.2em;
 }
 
 .bio-intro p {
@@ -724,23 +796,9 @@ button {
 }
     
 
-.technical {
-    width:30%;
-    display:inline-block;
-    }
-    
-.design {
-    width:30%;
-    display:inline-block;
-    }
-    
-.marketing {
-    width:30%;
-    display:inline-block;
-    }
 .main-about {
 
-    background:#ddd;
+    background:#f7dfcb;
     padding: 8% 0 8% 0;
 }
 
@@ -754,7 +812,7 @@ button {
 }
 
 .more-bio {
-    background:#e31f72;
+    background:#092bb5;
     padding: 8% 0 8% 0;
 }
 
@@ -808,7 +866,7 @@ button {
  }
 
 .project-preview h2 {
-    font-family: 'Merriweather';
+    font-family: 'Lato';
     color: #092c58;
     margin: 3% 0 3% 0; 
     font-size: 1.1em;
@@ -948,6 +1006,77 @@ button {
     border-bottom: 1px #092c58 solid;
 }
 
+    /* -------------------- Contact Page - TABLET ---------------- */
+
+.contact-title {
+    display:none;
+}
+
+.contact h1 {
+    font-family: 'Caveat';
+    font-size: 6em;
+    margin: 0 0 0 0;
+    text-align: center;
+    padding: 3% 0 0 0;
+    
+}
+
+.contact h3 {
+    font-family:'Julius Sans One';
+    font-size: 1.2em;
+    margin: 0 0 5% 0;
+    text-align: center;
+}
+
+.details-container { /* left image side */
+    width: 45%;
+    margin:0 0 0 2%;
+    padding: 0 0 8% 0;
+    display: inline-block;
+
+}
+
+.form-container { /* right written side */
+    width: 45%;
+    margin:0 2% 0 0 ;
+    display: inline-block;
+    float:right;
+}
+    
+    
+.contact-details {
+    width:100%;
+    margin:auto;
+    padding: 0 0 0 0;
+    }
+    
+.contact-details img {
+    width:100%;
+    margin:0;
+    padding:0 0 0 0;
+    }  
+    
+
+.contact-question {
+    width: 94%;
+    margin: 0 3% 0 3%;
+    
+}
+
+.contact-question h1 {
+    font-family: 'Caveat';
+    line-height: 1em;
+    font-size: 1.6em;
+}
+
+.contact-question p {
+    font-family: 'Open Sans';
+    font-size: 1em;
+}
+
+.contact-question h2 {
+    font-family: 'Caveat';
+}
     
     /*==================  FOOTER  - TABLET ==================*/
 .footer-copyright {
@@ -998,7 +1127,7 @@ button {
 
 .name h1 {
     margin:12% 0 0 0 ;
-    font-size: 6em;
+    font-size: 6.2em;
     color:#e31f72;
 
 }
@@ -1046,14 +1175,14 @@ button {
 .service-preview {
     margin: 0 0 0 0;
     padding: 0 0 8% 0;
-    background:rgba(255, 255, 255, 0.56);
+    background:#f7dfcb;
 }
 
 .section-title {    
 }
 
 .section-title h2 {
-    margin: 5% 0 3% 0;
+    margin: 3% 0 3% 0;
     text-align: center;
     font-size: 2.2em;
     text-transform: uppercase;
@@ -1107,10 +1236,10 @@ button {
 
 .home-bottom {
     width:100%;
-    background: #333;   
+    background: rgba(247, 223, 203, 0.47);   
     margin: 0;
     padding: 0 0 0 0;
-    border-bottom:1px #000 solid;
+    /*border-bottom:1px #000 solid; */
     overflow:hidden
 }
 
@@ -1131,7 +1260,7 @@ button {
     padding:0 0 0 0 ;
     font-family: 'Open Sans';
     font-weight: 400; /* normal */
-    color:#fff;
+    color:#333;
     letter-spacing: 1.5px;
     line-height: 1.8em;
     font-size: 1.5em;
@@ -1173,8 +1302,9 @@ button {
 /*====================== ABOUT - DESKTOP =======================*/
 
 .bio-top {
-    background: #333;
+    background: #fff;
     padding: 0 0 0 0;
+    margin: 0 0 3% 0;
     overflow: hidden;
 
 }
@@ -1182,7 +1312,7 @@ button {
 .bio-img {
     width:25%;
     float:right;
-    margin: 0 15% 0 0;
+    margin: 3% 15% 0 0;
     
 }
 
@@ -1191,27 +1321,26 @@ button {
 }
 
 .bio-intro {
-    width:50%;
+    width:45%;
     padding: 0 0 0 0;
-    margin: 4% 0 0 10%;
-    background:#bbd1d9;
+    margin: 4% 5% 0 10%;
+    background:#fff;
     display: inline-block;
     
     
 }
 
 .bio-intro h2 {
-    font-size: 2em;
+    font-size: 3.5em;
     margin: 0 0 1% 5%;
     padding: 0 0 0 0;
 }
 
 .bio-intro h4 {
+    font-size: 1.2em;
+    line-height: 1.5em;
     margin: 0 0 1% 5%;
     padding: 0 0 3% 0;
-    color:#626060;
-    font-size: 1.3em;
-    font-weight: 400;
 }
 
 .bio-intro p {
@@ -1222,7 +1351,7 @@ button {
     
 .main-about {
 
-    background:#ddd;
+    background:#f7dfcb;
     padding: 6% 0 6% 0;
 }
 
@@ -1238,7 +1367,7 @@ button {
 }
 
 .more-bio {
-    background:#e31f72;
+    background:#092bb5;
     padding: 6% 0 6% 0;
 }
 
@@ -1299,7 +1428,7 @@ button {
  }
 
 .project-preview h2 {
-    font-family: 'Merriweather';
+    font-family: 'Lato';
     color: #092c58;
     margin: 3% 0 3% 0; 
     font-size: 1.4em;
@@ -1448,7 +1577,76 @@ button {
     border-bottom: 1px #092c58 solid;
 }
 
+/* -------------------- Contact Page - DESKTOP ---------------- */
+
+.contact-title {
+    display:none;
+}
+
+.contact h1 {
+    font-family: 'Caveat';
+    font-size: 6em;
+    margin: 0 0 0 0;
+    text-align: center;
+    padding: 3% 0 0 0;
     
+}
+
+.contact h3 {
+    font-family:'Julius Sans One';
+    font-size: 1.2em;
+    margin: 0 0 5% 0;
+    text-align: center;
+}
+
+.details-container { /* left side pic */
+    width: 36%;
+    margin:0 0 0 10%;
+    padding: 0 0 8% 0;
+    display: inline-block;
+
+}
+ 
+.contact-details {
+    width:100%;
+    margin:auto;
+    padding: 0 0 0 0;
+    }
+    
+
+.contact-details img {
+    padding: 0 0 3% 0;
+}
+
+   
+.form-container { /* right side container */
+    width:36%;
+    display: inline-block;
+    float:right;
+    margin: 0 10% 0 0;
+}
+    
+
+.contact-question {
+    width: 94%;
+    margin: 0 3% 0 3%;
+    
+}
+
+.contact-question h1 {
+    font-family: 'Caveat';
+    line-height: 1em;
+    font-size: 2.4em;
+}
+
+.contact-question p {
+    font-family: 'Open Sans';
+    font-size: 1.2em;
+}
+
+.contact-question h2 {
+    font-family: 'Caveat';
+}    
     
 /*==================  FOOTER  - TABLET ==================*/
 .footer-copyright {
@@ -1480,4 +1678,16 @@ button {
     font-size: .8em;
     color:#333;    
 }    
+}/* end media query*/
+
+
+@media screen and (min-width:1300px) {
+    
+.bio-intro h2 {
+    margin:2% 0 0 5%;
+    font-size:5em;
+    }
+.bio-intro h4 {
+    font-size: 1.4em;
+    }
 }
